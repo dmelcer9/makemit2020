@@ -1,6 +1,6 @@
 #include "hsv.hpp";
 
-rgb hsv2rgb(hsv in)
+rgb hsv2rgb2(hsv in)
 {
     double      hh, p, q, t, ff;
     long        i;
@@ -12,6 +12,7 @@ rgb hsv2rgb(hsv in)
         out.b = in.v;
         return out;
     }
+    
     hh = in.h;
     if(hh >= 360.0) hh = 0.0;
     hh /= 60.0;

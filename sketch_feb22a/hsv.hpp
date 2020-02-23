@@ -10,4 +10,4 @@ typedef struct hsv {
     double v;       // a fraction between 0 and 1
 } hsv;
 
-rgb   hsv2rgb(hsv in);
+rgb   hsv2rgb2(hsv in);
